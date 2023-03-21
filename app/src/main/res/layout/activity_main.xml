@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What a stemer you are!" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name!" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="Name" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="87dp"
+                android:layout_height="67dp"
+                app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="105dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/kisspng_computer_icons_twitch_download_twitch_subscribe_5b2061ef16b1c9_962109591528848879093" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="82dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LastName!" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="LastName" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp">
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="77dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/radioButton9"
+                android:layout_width="66dp"
+                android:layout_height="62dp"
+                android:text="Yes"
+                app:layout_column="0"
+                app:layout_row="0" />
+
+            <RadioButton
+                android:id="@+id/radioButton10"
+                android:layout_width="73dp"
+                android:layout_height="62dp"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="163dp"
+            android:layout_height="23dp"
+            android:text="You are still active"
+            tools:layout_editor_absoluteX="149dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="114dp"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/_201318"
+            tools:layout_editor_absoluteX="348dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        app.ColumCount="4"
+        app.rowCount="4"
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobbie" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:text="Futbol" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text="Comedi" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gameplays" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:text="Stemer"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Creative"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="102dp"
+            android:layout_height="48dp"
+            app:layout_column="4"
+            app:layout_row="0"
+            app:srcCompat="@drawable/_646038" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/BAzul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Azul"
+
+        />
+    <Button
+        android:id="@+id/BRojo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rojo"
+
+        />
+    <Button
+        android:id="@+id/BVerde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verde"
+
+        />
+
+
+</LinearLayout>
